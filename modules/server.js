@@ -28,7 +28,7 @@ module.exports = function(server){
         for (i = 0; i < remotePlayers.length; i++) {
             if (remotePlayers[i].id == id)
                 return remotePlayers[i];
-        };
+        }
         return false;
     }
 
