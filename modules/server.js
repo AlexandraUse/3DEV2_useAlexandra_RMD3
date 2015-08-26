@@ -153,7 +153,7 @@ module.exports = function(server){
                     movePlayer.setX(data.newX);
                     movePlayer.setY(data.newY);
 
-                    io.sockets.emit("move_player", {id: data.id, prevX: data.prevX, prevY: data.prevY, newX: movePlayer.getX(), newY: movePlayer.getY(), player: data.player});
+                    io.sockets.emit("move_player", {id: data.id, prevX: data.prevX, prevY: data.prevY, newX: movePlayer.getX(), newY: movePlayer.getY(), player: data.player, team: data.team});
                 }
             }
         });

@@ -45,14 +45,14 @@ function getClickCoordinatesHandler(coordinates){
         selfCanvas.newX = coordinates.x;
         selfCanvas.newY = coordinates.y;
 
-        updateCoordinates(selfCanvas.socketId, selfCanvas.xPos, selfCanvas.yPos, selfCanvas.newX, selfCanvas.newY, selfCanvas.player);
+        updateCoordinates(selfCanvas.socketId, selfCanvas.xPos, selfCanvas.yPos, selfCanvas.newX, selfCanvas.newY, selfCanvas.player, selfCanvas.team);
     }
 }
 
-function updateCoordinates(id, prevx, prevy, newx, newy, player){
+function updateCoordinates(id, prevx, prevy, newx, newy, player, team){
     flag = true;
 
-    selfCanvas.fire("update_player", (id, prevx, prevy, newx, newy, player));
+    selfCanvas.fire("update_player", (id, prevx, prevy, newx, newy, player, team));
 }
 
 Polymer({
@@ -64,6 +64,7 @@ Polymer({
     newY: 0,
     socketId: undefined,
     player: undefined,
+    team: undefined,
     playerNumber: undefined,
     playerToMove: undefined,
     bush: undefined,
@@ -87,6 +88,7 @@ Polymer({
                 selfCanvas.xPos = playerPosition[p][0];
                 selfCanvas.yPos = playerPosition[p][1];
                 selfCanvas.player = players[p].player;
+                selfCanvas.team = players[p].team;
             }
         }
     },

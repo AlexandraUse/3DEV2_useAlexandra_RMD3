@@ -36,7 +36,7 @@ requirejs([
     this.socket.on("timer_set", time_remaining.timerSet.bind(this));
 
     canvas_body.addEventListener("update_player", (function(e){
-        socket.emit("update player", {id: e.currentTarget.socketId, prevX: e.currentTarget.xPos, prevY: e.currentTarget.yPos, newX: e.currentTarget.newX, newY: e.currentTarget.newY, player: e.currentTarget.player});
+        socket.emit("update player", {id: e.currentTarget.socketId, prevX: e.currentTarget.xPos, prevY: e.currentTarget.yPos, newX: e.currentTarget.newX, newY: e.currentTarget.newY, player: e.currentTarget.player, team: e.currentTarget.team});
     }).bind(this));
 
     canvas_body.addEventListener("bushes_get", (function(e){
@@ -45,8 +45,7 @@ requirejs([
     }).bind(this));
 
     canvas_body.addEventListener("update_points", (function(e){
-        console.log(e);
-        //socket.emit('update points', e);
+        socket.emit('update points', e.detail.team);
     }).bind(this));
 
     time_remaining.addEventListener("set_timer", (function(e){
