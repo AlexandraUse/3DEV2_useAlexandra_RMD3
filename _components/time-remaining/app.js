@@ -14,7 +14,7 @@ function getTimersHandler(time){
         }
         selfTimer.fire("set_timer");
     }, 1000);
-    return self.seconds;
+    //return self.seconds;
 }
 
 Polymer({
