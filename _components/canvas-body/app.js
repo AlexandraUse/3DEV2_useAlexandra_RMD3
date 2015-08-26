@@ -211,7 +211,7 @@ requirejs([
             var mapLayers = [];
             var rangeX = xrange;
             var rangeY = yrange;
-            var calculatePaths = 0;
+            //var calculatePaths = 0;
             var introRan = true;
             var zoomLevel = 0.1;
             //var enemyStart = playerPosition; // Starting location of AI
@@ -241,7 +241,10 @@ requirejs([
                 });
             });
 
-            function newDraw(player){
+            function newDraw(player, calculatePaths){
+                if(calculatePaths == undefined){
+                    calculatePaths = 0;
+                }
                 //console.log('new draw player: ' , player);
                 var playerOnLocation = false;
                 if(player == "undefined"){
@@ -278,7 +281,7 @@ requirejs([
                         calculatePaths += 1;
                         if(!playerOnLocation){
                             requestAnimFrame(function(){
-                                newDraw(player);
+                                newDraw(player, calculatePaths);
                             });
                         }
                     }
