@@ -231,7 +231,8 @@ requirejs([
             });
 
             function newDraw(player){
-                console.log('new draw player: ' , player);
+                //console.log('new draw player: ' , player);
+                var playerOnLocation = false;
                 if(player == "undefined"){
                     console.log("Player to move is undefined");
                 }else{
@@ -243,30 +244,32 @@ requirejs([
                             switch(player.player) {
                                 case 1:
                                     console.log("Player 1 needs to move");
-                                    drawPlayer(player);
+                                    playerOnLocation = drawPlayer(player);
                                     calculatePaths = 0;
                                     break;
                                 case 2:
                                     console.log("Player 2 needs to move");
-                                    drawPlayer(player);
+                                    playerOnLocation = drawPlayer(player);
                                     calculatePaths = 0;
                                     break;
                                 case 3:
                                     console.log("Player 3 needs to move");
-                                    drawPlayer(player);
+                                    playerOnLocation = drawPlayer(player);
                                     calculatePaths = 0;
                                     break;
                                 case 4:
                                     console.log("Player 4 needs to move");
-                                    drawPlayer(player);
+                                    playerOnLocation = drawPlayer(player);
                                     calculatePaths = 0;
                                     break;
                             }
                         }
                         calculatePaths += 1;
-                        requestAnimFrame(function(){
-                            newDraw(player);
-                        });
+                        if(!playerOnLocation){
+                            requestAnimFrame(function(){
+                                newDraw(player);
+                            });
+                        }
                     }
                 }
 
@@ -286,6 +289,7 @@ requirejs([
                 var playerPosNowX = players[player.player-1].xPos;
                 var playerPosNowY = players[player.player-1].yPos;
                 if(playerPosNowX == player.newX && playerPosNowY == player.newY){
+
                     for(var b in bushes){
                         if(bushes[b].xPos == playerPosNowX){
                             if(bushes[b].yPos == playerPosNowY){
@@ -294,8 +298,9 @@ requirejs([
                             }
                         }
                     }
-
+                    return true;
                 }
+                return false;
             }
 
             function createBushes(){
