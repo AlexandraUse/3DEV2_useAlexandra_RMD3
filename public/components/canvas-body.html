@@ -2134,12 +2134,15 @@ var newDrawFunction;
 var createBushesFunction;
 
 function playerCollisionHandler(){
-    playerOnCollision = false;
+    clickCount++;
 
-    console.log("Collision");
-    selfCanvas.bush = bush;
+    if(clickCount == 2){
+        clickCount = 0;
+    }else if(clickCount == 1){
+        console.log("Collision with right bush");
 
-    //if(selfCanvas.bush == )
+    }
+    //selfCanvas.bush = bush;
 }
 
 function getClickCoordinatesHandler(coordinates){
@@ -2399,13 +2402,12 @@ requirejs([
                         if(bushes[b].xPos == playerPosNowX){
                             if(bushes[b].yPos == playerPosNowY){
                                 console.log("Player on a bush");
-                                playerOnCollision = true;
                                 console.log(selfCanvas.randomBushes[b]);
+                                if(selfCanvas.randomBushes[b] == selfCanvas.bush){
+                                    playerCollisionHandler();
+                                }
                             }
                         }
-                    }
-                    if(playerOnCollision == true){
-                        playerCollisionHandler();
                     }
                     return true;
                 }
