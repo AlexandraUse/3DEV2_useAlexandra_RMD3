@@ -250,7 +250,7 @@ requirejs([
                     if(flag == false){
                         console.log("Drawing not allowed");
                     }else{
-                        if(calculatePaths === 100) {
+                        if(calculatePaths === 10) {
                             flag = true;
                             switch(player.player) {
                                 case 1:
