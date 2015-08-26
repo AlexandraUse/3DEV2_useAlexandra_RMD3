@@ -95,7 +95,6 @@ Polymer({
         newDrawFunction(player);
     },
     onBushesPos: function(data){
-        console.log(data.randomBushes);
 
         selfCanvas.randomPos = data.randomPos[0];
         selfCanvas.randomBushes = data.randomBushes;
@@ -291,7 +290,7 @@ requirejs([
                             if(bushes[b].yPos == playerPosNowY){
                                 console.log("Player on a bush");
                                 playerOnCollision = true;
-                                console.log(bushes[b].name);
+                                console.log(selfCanvas.randomBushes[b]);
                             }
                         }
                     }
@@ -356,7 +355,6 @@ requirejs([
                             yPos: enemyStart[i][1]
                         });
                     }
-                    console.log(bushImages.dictionary);
                     createBushesFunction = createBushes;
 
                     if(bushImages != null && bushImages != undefined && bushImages != ""){
