@@ -46,7 +46,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_components/canvas-body/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="44" selection-start="2164" selection-end="2164" vertical-scroll-proportion="0.61095506" vertical-offset="960" max-vertical-offset="5805">
+            <state line="102" column="58" selection-start="2454" selection-end="2454" vertical-scroll-proportion="0.8005618" vertical-offset="960" max-vertical-offset="5820">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -448,7 +448,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_components/canvas-body/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="44" selection-start="2164" selection-end="2164" vertical-scroll-proportion="0.61095506" vertical-offset="960" max-vertical-offset="5805">
+        <state line="102" column="58" selection-start="2454" selection-end="2454" vertical-scroll-proportion="0.8005618" vertical-offset="960" max-vertical-offset="5820">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

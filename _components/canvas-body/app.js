@@ -91,11 +91,12 @@ Polymer({
             if(players[p].socketId == mySocketId){
                 playerPosition.push([players[p].xPos, players[p].yPos]);
                 selfCanvas.socketId = players[p].socketId;
-                console.log(playerPosition);
-                selfCanvas.xPos = playerPosition[p][0];
-                selfCanvas.yPos = playerPosition[p][1];
+
+                //selfCanvas.xPos = playerPosition[p][0];
+                //selfCanvas.yPos = playerPosition[p][1];
                 selfCanvas.player = players[p].player;
             }
+            console.log(playerPosition);
         }
     },
     onClient: function(client){
