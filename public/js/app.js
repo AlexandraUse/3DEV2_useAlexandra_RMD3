@@ -18,6 +18,10 @@ requirejs([
         console.log("Connecting myself: ", data);
         socket.emit("new player", data);
     }));
+    this.socket.on("player_disconnected", (function(data){
+        console.log("Disconnecting: ", data);
+        //socket.emit("new player", data);
+    }));
     this.socket.on("player_connected", canvas_body.onClient.bind(this));
     this.socket.on("player_connected", own_team_info.onClient.bind(this));
     this.socket.on("remove_player", (function(data){

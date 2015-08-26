@@ -272,7 +272,6 @@ requirejs([
                         }
                     }
                 }
-
             }
 
             function drawPlayer(player) {
