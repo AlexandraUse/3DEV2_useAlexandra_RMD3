@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="004eb064-78f3-4890-8242-9215f14d7deb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_js/app.js" afterPath="$PROJECT_DIR$/_js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="3DEV2_useAlexandra_RMD3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,15 +56,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="855">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="gulpfile.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,7 +99,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="45" selection-start="490" selection-end="490" vertical-scroll-proportion="0.37414965" vertical-offset="0" max-vertical-offset="810">
+            <state line="18" column="8" selection-start="694" selection-end="694" vertical-scroll-proportion="0.6122449" vertical-offset="0" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -386,13 +378,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/classes/Keys.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/Player.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
@@ -497,9 +482,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="29" selection-start="956" selection-end="956" vertical-scroll-proportion="0.33333334" vertical-offset="33" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="45" selection-start="490" selection-end="490" vertical-scroll-proportion="0.37414965" vertical-offset="0" max-vertical-offset="810">
+        <state line="18" column="8" selection-start="694" selection-end="694" vertical-scroll-proportion="0.6122449" vertical-offset="0" max-vertical-offset="810">
           <folding />
         </state>
       </provider>

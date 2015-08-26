@@ -10,7 +10,7 @@ var collector_item = document.getElementsByTagName("collector-item")[0];
 requirejs([
     '/socket.io/socket.io.js'
 ],function(io){
-    this.socket = io('http://localhost:3000/');
+    this.socket = io(window.location.hostname);
 
     var self = this;
     var socket = this.socket;
