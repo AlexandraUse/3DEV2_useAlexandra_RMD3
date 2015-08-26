@@ -291,7 +291,7 @@ requirejs([
                             if(bushes[b].yPos == playerPosNowY){
                                 console.log("Player on a bush");
                                 playerOnCollision = true;
-                                console.log(bushes[b]);
+                                console.log(bushes[b].image);
                             }
                         }
                     }
