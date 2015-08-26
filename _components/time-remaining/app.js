@@ -24,6 +24,8 @@ Polymer({
 
     ready: function(){
         selfTimer = this;
+    },
+    onPlayersReady: function(){
         getTimersHandler.call(this, 60);
     },
     timerSet: function(time){
