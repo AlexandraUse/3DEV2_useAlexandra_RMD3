@@ -20,7 +20,6 @@ requirejs([
     this.socket.on("new_player", canvas_body.onSetPlayer.bind(this));
     this.socket.on("player_disconnected", (function(data){
         console.log("Disconnecting: ", data);
-        //socket.emit("new player", data);
     }));
     this.socket.on("player_connected", canvas_body.onClient.bind(this));
     this.socket.on("player_connected", own_team_info.onClient.bind(this));
@@ -48,7 +47,3 @@ requirejs([
         socket.emit('set timer', e.currentTarget.seconds);
     }).bind(this));
 });
-
-time_remaining.addEventListener("getTimer", (function(e){
-    time_remaining.getTimer(60);
-}).bind(this));

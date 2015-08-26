@@ -3,7 +3,6 @@
 var sec = 0;
 var selfTimer;
 function getTimersHandler(time){
-    //console.log("Get timers: " + time);
     sec = time;
     var id = window.setInterval(function() {
         sec--;
@@ -21,14 +20,11 @@ function getTimersHandler(time){
 Polymer({
 
     timer: undefined,
-    seconds: 60,
+    seconds: undefined,
 
     ready: function(){
-        this.fire("getTimer");
         selfTimer = this;
-    },
-    getTimer: function(time){
-        getTimersHandler.call(this, time);
+        getTimersHandler.call(this, 60);
     },
     timerSet: function(time){
         selfTimer.seconds = time;

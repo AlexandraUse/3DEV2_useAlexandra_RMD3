@@ -2137,17 +2137,6 @@ function playerCollisionHandler(){
     playerOnCollision = false;
 
     console.log("Collision");
-
-    /*clickCount++;
-
-    if(clickCount >= 2){
-        console.log("Too many clicks");
-        //clickCount = 0;
-    }else if(clickCount == 1){
-        //clickCount = 0;
-        console.log("Collision");
-
-    }*/
 }
 
 function getClickCoordinatesHandler(coordinates){
@@ -2157,7 +2146,6 @@ function getClickCoordinatesHandler(coordinates){
     if(clickCount == 2){
         clickCount = 0;
     }else if(clickCount == 1){
-        console.log("Get coordinates: " + "x: " + coordinates.x + " y: " + coordinates.y);
         selfCanvas.newX = coordinates.x;
         selfCanvas.newY = coordinates.y;
 
@@ -2211,12 +2199,10 @@ Polymer({
         playerPosition = [[0, 0], [0, 9], [9, 0], [9, 9]];
     },
     onMovePlayer: function(player){
-        console.log(player);
         flag = true;
         newDrawFunction(player);
     },
     onBushesPos: function(data){
-
         selfCanvas.randomPos = data.randomPos[0];
         selfCanvas.randomBushes = data.randomBushes;
 
@@ -2321,15 +2307,11 @@ requirejs([
             var mapLayers = [];
             var rangeX = xrange;
             var rangeY = yrange;
-            //var calculatePaths = 0;
             var introRan = true;
             var zoomLevel = 0.1;
-            //var enemyStart = playerPosition; // Starting location of AI
             var enemyStart = [[0, 0], [0, 9], [9, 0], [9, 9]]; // Starting location of AI
             var tile_coordinates = 0;
             var context = CanvasControl.create(1000, 600, {
-                //fillStyle: "url('css/img/bg_2.jpg')",
-                //display: "block",
                 marginLeft: "auto",
                 marginRight: "auto"
             }, cnvs, 0, "cnvselement");
@@ -2347,7 +2329,6 @@ requirejs([
             input.mouse_move(function(coords) {
                 mapLayers.map(function(layer) {
                     tile_coordinates = layer.applyMouseFocus(coords.x, coords.y); // Apply mouse rollover via mouse location X & Y
-                    //console.log("Move map coordinates: " + " x: " + tile_coordinates.x + " y: " + tile_coordinates.y);
                 });
             });
 
@@ -2355,7 +2336,6 @@ requirejs([
                 if(calculatePaths == undefined){
                     calculatePaths = 0;
                 }
-                //console.log('new draw player: ' , player);
                 var playerOnLocation = false;
                 if(player == "undefined"){
                     console.log("Player to move is undefined");
@@ -2367,22 +2347,22 @@ requirejs([
                             flag = true;
                             switch(player.player) {
                                 case 1:
-                                    console.log("Player 1 needs to move");
+                                    console.log("Player 1 moving to ", player.newX, ", ", player.newY);
                                     playerOnLocation = drawPlayer(player);
                                     calculatePaths = 0;
                                     break;
                                 case 2:
-                                    console.log("Player 2 needs to move");
+                                    console.log("Player 2 moving to ", player.newX, ", ", player.newY);
                                     playerOnLocation = drawPlayer(player);
                                     calculatePaths = 0;
                                     break;
                                 case 3:
-                                    console.log("Player 3 needs to move");
+                                    console.log("Player 3 moving to ", player.newX, ", ", player.newY);
                                     playerOnLocation = drawPlayer(player);
                                     calculatePaths = 0;
                                     break;
                                 case 4:
-                                    console.log("Player 4 needs to move");
+                                    console.log("Player 4 moving to ", player.newX, ", ", player.newY);
                                     playerOnLocation = drawPlayer(player);
                                     calculatePaths = 0;
                                     break;
