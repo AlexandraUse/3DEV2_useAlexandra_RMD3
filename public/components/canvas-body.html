@@ -2341,7 +2341,7 @@ requirejs([
             });
 
             function newDraw(player){
-                console.log('new draw player: ' + player);
+                console.log('new draw player: ' , player);
                 if(player == "undefined"){
                     console.log("Player to move is undefined");
                 }else{
@@ -2374,7 +2374,9 @@ requirejs([
                             }
                         }
                         calculatePaths += 1;
-                        requestAnimFrame(newDraw);
+                        requestAnimFrame(function(){
+                            newDraw(player)
+                        });
                     }
                 }
 

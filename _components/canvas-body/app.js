@@ -264,7 +264,9 @@ requirejs([
                             }
                         }
                         calculatePaths += 1;
-                        requestAnimFrame(newDraw);
+                        requestAnimFrame(function(){
+                            newDraw(player);
+                        });
                     }
                 }
 
