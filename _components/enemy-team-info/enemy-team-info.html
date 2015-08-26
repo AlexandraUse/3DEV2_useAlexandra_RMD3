@@ -7,9 +7,11 @@
         <p class="info_team">Enemy's team</p>
         <p class="info_score">Score <span>{{points}}</span> pts</p>
         <div class="info_players">
-            <div class="info_player_1 circle3" style="background-image: url('../css/img/player{{characterImage[2]}}.png');"></div>
-            <div class="info_player_lijntje"></div>
-            <div class="info_player_2 circle4" style="background-image: url('../css/img/player{{characterImage[3]}}.png');"></div>
+            <template if="{{characterImage}}">
+                <div class="info_player_1 circle3" style="background-image: url('../css/img/player{{characterImage[2]}}.png');"></div>
+                <div class="info_player_lijntje"></div>
+                <div class="info_player_2 circle4" style="background-image: url('../css/img/player{{characterImage[3]}}.png');"></div>
+            </template>
         </div>
     </template>
     <!-- smoosh -->
