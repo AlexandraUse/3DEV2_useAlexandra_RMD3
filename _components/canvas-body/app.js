@@ -309,7 +309,7 @@ requirejs([
                         image: bushImages.files[selfCanvas.randomBushes[i]],
                         xPos: selfCanvas.randomPos[i][0],
                         yPos: selfCanvas.randomPos[i][1],
-                        name: bushImages.dictionary[selfCanvas.randomBushes[i]]
+                        name: ""
                     });
                 }
             }
@@ -356,6 +356,7 @@ requirejs([
                             yPos: enemyStart[i][1]
                         });
                     }
+                    console.log(bushImages.dictionary);
                     createBushesFunction = createBushes;
 
                     if(bushImages != null && bushImages != undefined && bushImages != ""){
