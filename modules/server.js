@@ -101,6 +101,7 @@ module.exports = function(server){
                 }
                 startX = positions[i][0];
                 startY = positions[i][1];
+                console.log("X: ", startX, "Y: ", startY);
                 localPlayer = new Player(startX, startY);
                 client.xPos = localPlayer.getX();
                 client.yPos = localPlayer.getY();

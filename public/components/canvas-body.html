@@ -2201,7 +2201,7 @@ Polymer({
             if(players[p].socketId == mySocketId){
                 playerPosition.push([players[p].xPos, players[p].yPos]);
                 selfCanvas.socketId = players[p].socketId;
-                    selfCanvas.xPos = playerPosition[p][0];
+                selfCanvas.xPos = playerPosition[p][0];
                 selfCanvas.yPos = playerPosition[p][1];
                 selfCanvas.player = players[p].player;
             }
