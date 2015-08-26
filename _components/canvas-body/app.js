@@ -27,7 +27,9 @@ function playerCollisionHandler(){
     playerOnCollision = false;
 
     console.log("Collision");
+    selfCanvas.bush = bush;
 
+    //if(selfCanvas.bush == )
 }
 
 function getClickCoordinatesHandler(coordinates){
@@ -94,7 +96,7 @@ Polymer({
     },
     onBushesPos: function(data){
         console.log(data.randomBushes);
-        
+
         selfCanvas.randomPos = data.randomPos[0];
         selfCanvas.randomBushes = data.randomBushes;
 
@@ -289,6 +291,7 @@ requirejs([
                             if(bushes[b].yPos == playerPosNowY){
                                 console.log("Player on a bush");
                                 playerOnCollision = true;
+                                console.log(bushes[b]);
                             }
                         }
                     }
