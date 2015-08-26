@@ -99,9 +99,6 @@ Polymer({
     },
     onClient: function(client){
         playerPosition = [[0, 0], [0, 9], [9, 0], [9, 9]];
-
-        //selfCanvas.socketId = client.socketId;
-        //selfCanvas.player = client.player;
     },
     onMovePlayer: function(player){
         console.log(player);

@@ -63,7 +63,7 @@ module.exports = function(server){
 
         socket.emit("new_player", {id: client.socketId, team: client.team, player: client.player, x: client.xPos, y: client.yPos, kleur: client.kleurPlayer});
 
-        socket.on('disconnect', function(data) {
+        socket.on('disconnect', function() {
             console.log("Player disconnecting, removing player " + client.socketId);
 
             var removePlayer = playerById(client.socketId);
