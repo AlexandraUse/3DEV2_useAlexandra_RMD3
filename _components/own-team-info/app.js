@@ -46,6 +46,8 @@ Polymer({
         selfOwn.yPos = client.yPos;
     },
     pointsSet: function(data){
+        console.log("Update points teams, team 1: ", data.team1, " team 2: ", data.team2);
+
         selfOwn.team1 = data.team1;
         selfEnemy.team2 = data.team2;
     }
