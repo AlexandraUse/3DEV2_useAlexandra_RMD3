@@ -2134,16 +2134,9 @@ var newDrawFunction;
 var createBushesFunction;
 
 function playerCollisionHandler(player){
-    //playerBackCollision = false;
-    clickCount++;
-
-    if(clickCount == 2){
-        clickCount = 0;
-    }else if(clickCount == 1){
-        console.log("Collision with right bush");
-        selfCanvas.fire("update_points", player);
-        selfCanvas.fire("bushes_images", bushImages);
-    }
+    console.log("Collision with right bush");
+    selfCanvas.fire("update_points", player);
+    selfCanvas.fire("bushes_images", bushImages);
 }
 
 function getClickCoordinatesHandler(coordinates){
