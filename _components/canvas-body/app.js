@@ -291,11 +291,7 @@ requirejs([
                             if(bushes[b].yPos == playerPosNowY){
                                 console.log("Player on a bush");
                                 playerOnCollision = true;
-                                console.log(bushes[b].image.src);
-
-
-                                var result = bushes[b].image.src.match(/<img src="([^"]+)">/);
-                                console.log(result);
+                                console.log(bushes[b].name);
                             }
                         }
                     }
@@ -312,7 +308,8 @@ requirejs([
                     bushes.push({
                         image: bushImages.files[selfCanvas.randomBushes[i]],
                         xPos: selfCanvas.randomPos[i][0],
-                        yPos: selfCanvas.randomPos[i][1]
+                        yPos: selfCanvas.randomPos[i][1],
+                        name: bushImages.dictionary[selfCanvas.randomBushes[i]]
                     });
                 }
             }
