@@ -83,6 +83,7 @@ Polymer({
 
         for(var p in players){
             playerPosition.push([players[p].xPos, players[p].yPos]);
+            selfCanvas.socketId = players[p].socketId,
             selfCanvas.xPos = playerPosition[p][0];
             selfCanvas.yPos = playerPosition[p][1];
             selfCanvas.player = players[p].player;
@@ -91,8 +92,8 @@ Polymer({
     onClient: function(client){
         playerPosition = [[0, 0], [0, 9], [9, 0], [9, 9]];
 
-        selfCanvas.socketId = client.socketId;
-        selfCanvas.player = client.player;
+        //selfCanvas.socketId = client.socketId;
+        //selfCanvas.player = client.player;
     },
     onMovePlayer: function(player){
         console.log(player);
