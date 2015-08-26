@@ -93,7 +93,7 @@ module.exports = function(server){
             remotePlayers.push(newPlayer);
 
             var i, existingPlayer, startX = 0, startY = 0;
-            for (i = 0; i < remotePlayers.length && i < 4; i++) {
+            for (i = 0; i < remotePlayers.length; i++) {
                 existingPlayer = remotePlayers[i].id;
                 client.player = i + 1;
                 client.kleurPlayer = characters[i];
