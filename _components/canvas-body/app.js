@@ -292,7 +292,10 @@ requirejs([
                                 console.log("Player on a bush");
                                 playerOnCollision = true;
                                 console.log(bushes[b].image.src);
-                                console.log((/\.(gif|jpg|jpeg|tiff|png)$/i).test(bushes[b].image.src));
+
+
+                                var result = bushes[b].image.src.match(/<img src="([^"]+)">/);
+                                console.log(result);
                             }
                         }
                     }
