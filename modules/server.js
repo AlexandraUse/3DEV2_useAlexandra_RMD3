@@ -71,9 +71,13 @@ module.exports = function(server){
                 console.log("Player not found: "+ client.socketId);
                 return;
             }
-            existingPlayers.splice(idExists, 1);
-            existingClients.splice(idExists, 1);
-            remotePlayers.splice(remotePlayers.indexOf(removePlayer), 1);
+
+
+            idExists = existsInArray(removePlayer.id, existingPlayers);
+            if (idExists >= 0) {
+                existingPlayers.splice(idExists, 1);
+                existingClients.splice(idExists, 1);
+            }
             console.log("Player removed, existing players: ", existingClients);
 
             socket.leave(socket.room);
