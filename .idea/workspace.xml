@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="004eb064-78f3-4890-8242-9215f14d7deb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/canvas-body/app.js" afterPath="$PROJECT_DIR$/_components/canvas-body/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_js/app.js" afterPath="$PROJECT_DIR$/_js/app.js" />
     </list>
     <ignored path="3DEV2_useAlexandra_RMD3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +46,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_components/canvas-body/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="29" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.44241574" vertical-offset="930" max-vertical-offset="5820">
+            <state line="83" column="26" selection-start="1799" selection-end="1799" vertical-scroll-proportion="0.44241574" vertical-offset="930" max-vertical-offset="5835">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -449,7 +448,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_components/canvas-body/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="29" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.44241574" vertical-offset="930" max-vertical-offset="5820">
+        <state line="83" column="26" selection-start="1799" selection-end="1799" vertical-scroll-proportion="0.44241574" vertical-offset="930" max-vertical-offset="5835">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

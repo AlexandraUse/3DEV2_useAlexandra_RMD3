@@ -81,6 +81,7 @@ Polymer({
         selfCanvas = this;
     },
     onSetPlayer: function(data){
+        console.log(data);
         mySocketId = data.id;
     },
     onPlayersReady: function(players){
