@@ -30,6 +30,7 @@ requirejs([
     this.socket.on("players_ready", time_remaining.onPlayersReady.bind(this));
     this.socket.on("move_player", canvas_body.onMovePlayer.bind(this));
     this.socket.on("bushes_set", collector_item.onBushesSet.bind(this));
+    this.socket.on("bushes_set", canvas_body.onBushesSet.bind(this));
     this.socket.on("bushes_pos_set", canvas_body.onBushesPos.bind(this));
     this.socket.on("timer_set", time_remaining.timerSet.bind(this));
 

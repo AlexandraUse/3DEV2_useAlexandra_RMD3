@@ -97,6 +97,9 @@ Polymer({
         flag = true;
         newDrawFunction(player);
     },
+    onBushesSet: function(data){
+        selfCanvas.bush = data;
+    },
     onBushesPos: function(data){
 
         selfCanvas.randomPos = data.randomPos[0];
@@ -293,6 +296,7 @@ requirejs([
                             if(bushes[b].yPos == playerPosNowY){
                                 console.log("Player on a bush");
                                 console.log(selfCanvas.randomBushes[b]);
+                                console.log(selfCanvas.bush);
                                 if(selfCanvas.randomBushes[b] == selfCanvas.bush){
                                     playerCollisionHandler();
                                 }
