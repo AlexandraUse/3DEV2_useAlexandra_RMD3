@@ -77,6 +77,7 @@ module.exports = function(server){
             if (idExists >= 0) {
                 existingPlayers.splice(idExists, 1);
                 existingClients.splice(idExists, 1);
+                remotePlayers.splice(idExists, 1);
             }
             console.log("Player removed, existing players: ", existingClients, remotePlayers);
 
