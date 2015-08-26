@@ -99,9 +99,9 @@ module.exports = function(server){
                 }else{
                     client.team = 2;
                 }
-                startX = positions[i];
-                startY = positions[i];
-                localPlayer = new Player(startX[0], startY[1]);
+                startX = positions[i][0];
+                startY = positions[i][1];
+                localPlayer = new Player(startX, startY);
                 client.xPos = localPlayer.getX();
                 client.yPos = localPlayer.getY();
 
