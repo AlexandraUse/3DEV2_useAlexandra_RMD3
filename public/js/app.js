@@ -40,8 +40,11 @@ requirejs([
         socket.emit("update player", {id: e.currentTarget.socketId, prevX: e.currentTarget.xPos, prevY: e.currentTarget.yPos, newX: e.currentTarget.newX, newY: e.currentTarget.newY, player: e.currentTarget.player, team: e.currentTarget.team});
     }).bind(this));
 
-    canvas_body.addEventListener("bushes_get", (function(e){
+    canvas_body.addEventListener("bushes_images", (function(e){
         socket.emit('bushes get', e.detail.dictionary);
+    }).bind(this));
+
+    canvas_body.addEventListener("bushes_pos", (function(e){
         socket.emit('bushes pos', e.detail.dictionary);
     }).bind(this));
 

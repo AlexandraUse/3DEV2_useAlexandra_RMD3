@@ -31,8 +31,8 @@ function playerCollisionHandler(player){
         clickCount = 0;
     }else if(clickCount == 1){
         console.log("Collision with right bush");
-        selfCanvas.fire("update_points", player.team);
-        selfCanvas.fire("bushes_get", bushImages);
+        selfCanvas.fire("update_points", player);
+        selfCanvas.fire("bushes_images", bushImages);
     }
 }
 
@@ -364,7 +364,8 @@ requirejs([
                     createBushesFunction = createBushes;
 
                     if(bushImages != null && bushImages != undefined && bushImages != ""){
-                        selfCanvas.fire("bushes_get", bushImages);
+                        selfCanvas.fire("bushes_images", bushImages);
+                        selfCanvas.fire("bushes_pos", bushImages);
                     }
                     firstDraw();
                 }
