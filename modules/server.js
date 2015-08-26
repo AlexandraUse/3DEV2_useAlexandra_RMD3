@@ -22,6 +22,8 @@ module.exports = function(server){
     var bushes = [];
     var bushesPos = [];
     var selectedBush;
+    var pointsTeam1 = 0;
+    var pointsTeam2 = 0;
 
     function playerById(id) {
         var i;
@@ -190,8 +192,6 @@ module.exports = function(server){
         socket.on("update points", function(data){
             console.log(data);
 
-            var pointsTeam1 = 0;
-            var pointsTeam2 = 0;
             if(data == 1){
                 pointsTeam1 += 100;
             }else if(data == 2){
