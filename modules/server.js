@@ -79,7 +79,8 @@ module.exports = function(server){
                 existingClients.splice(idExists, 1);
                 remotePlayers.splice(idExists, 1);
             }
-            console.log("Player removed, existing players: ", existingClients, remotePlayers);
+            console.log("Player removed, existing players: ", existingClients);
+            console.log("Player removed, remote players: ", remotePlayers);
 
             socket.leave(socket.room);
             socket.broadcast.emit("player_disconnected", client.socketId);
