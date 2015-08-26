@@ -2201,11 +2201,8 @@ Polymer({
     },
     onMovePlayer: function(player){
         console.log(player);
-
-        selfCanvas.playerToMove = player;
-
         flag = true;
-        newDrawFunction();
+        newDrawFunction(player);
     },
     onBushesPos: function(data){
 
@@ -2343,8 +2340,8 @@ requirejs([
                 });
             });
 
-            function newDraw(){
-                if(selfCanvas.playerToMove == "undefined"){
+            function newDraw(player){
+                if(player == "undefined"){
                     console.log("Player to move is undefined");
                 }else{
                     if(flag == false){
@@ -2352,25 +2349,25 @@ requirejs([
                     }else{
                         if(calculatePaths === 100) {
                             flag = true;
-                            switch(selfCanvas.playerToMove.player) {
+                            switch(player.player) {
                                 case 1:
                                     console.log("Player 1 needs to move");
-                                    drawPlayer();
+                                    drawPlayer(player);
                                     calculatePaths = 0;
                                     break;
                                 case 2:
                                     console.log("Player 2 needs to move");
-                                    drawPlayer();
+                                    drawPlayer(player);
                                     calculatePaths = 0;
                                     break;
                                 case 3:
                                     console.log("Player 3 needs to move");
-                                    drawPlayer();
+                                    drawPlayer(player);
                                     calculatePaths = 0;
                                     break;
                                 case 4:
                                     console.log("Player 4 needs to move");
-                                    drawPlayer();
+                                    drawPlayer(player);
                                     calculatePaths = 0;
                                     break;
                             }
@@ -2382,20 +2379,20 @@ requirejs([
 
             }
 
-            function drawPlayer() {
+            function drawPlayer(player) {
                 flag = true;
                 players.map(function(e) {
                     // pathfind: id, start, end, map, diagonal, force
-                    pathfind(players[selfCanvas.playerToMove.player-1], [players[selfCanvas.playerToMove.player-1].xPos, players[selfCanvas.playerToMove.player-1].yPos], [selfCanvas.playerToMove.newX, selfCanvas.playerToMove.newY], mapLayers[0].getHeightLayout(), false, true).then(function (data) {
+                    pathfind(players[player.player-1], [players[player.player-1].xPos, players[player.player-1].yPos], [player.newX, player.newY], mapLayers[0].getHeightLayout(), false, true).then(function (data) {
                         if (data.length > 0 && data[1] !== undefined) {
-                            players[selfCanvas.playerToMove.player-1].xPos = data[1].x;
-                            players[selfCanvas.playerToMove.player-1].yPos = data[1].y;
+                            players[player.player-1].xPos = data[1].x;
+                            players[player.player-1].yPos = data[1].y;
                         }
                     });
                 });
-                var playerPosNowX = players[selfCanvas.playerToMove.player-1].xPos;
-                var playerPosNowY = players[selfCanvas.playerToMove.player-1].yPos;
-                if(playerPosNowX == selfCanvas.playerToMove.newX && playerPosNowY == selfCanvas.playerToMove.newY){
+                var playerPosNowX = players[player.player-1].xPos;
+                var playerPosNowY = players[player.player-1].yPos;
+                if(playerPosNowX == player.newX && playerPosNowY == player.newY){
                     for(var b in bushes){
                         if(bushes[b].xPos == playerPosNowX){
                             if(bushes[b].yPos == playerPosNowY){
