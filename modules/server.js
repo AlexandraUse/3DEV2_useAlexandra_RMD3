@@ -17,7 +17,7 @@ module.exports = function(server){
     var idExists;
     var existingPlayers = [];
     var existingClients = [];
-    var positions = [];
+    var positions = [[0, 0], [0, 9], [9, 0], [9, 9]];
     var player;
     var bushes = [];
     var bushesPos = [];
@@ -48,7 +48,6 @@ module.exports = function(server){
         console.log("Player connecting " + socket.id);
 
         characters = Character.characters;
-        positions = [[0, 0], [0, 9], [9, 0], [9, 9]];
 
         var client = {
             socketId: socket.id,

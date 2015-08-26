@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="004eb064-78f3-4890-8242-9215f14d7deb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/canvas-body/app.js" afterPath="$PROJECT_DIR$/_components/canvas-body/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/server.js" afterPath="$PROJECT_DIR$/modules/server.js" />
     </list>
     <ignored path="3DEV2_useAlexandra_RMD3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="13" selection-start="3523" selection-end="3523" vertical-scroll-proportion="0.0" vertical-offset="1414" max-vertical-offset="2880">
+            <state line="30" column="10" selection-start="858" selection-end="858" vertical-scroll-proportion="-1.0533708" vertical-offset="1200" max-vertical-offset="2865">
               <folding />
             </state>
           </provider>
@@ -43,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_components/canvas-body/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="58" selection-start="2454" selection-end="2454" vertical-scroll-proportion="0.8005618" vertical-offset="960" max-vertical-offset="5820">
+            <state line="102" column="58" selection-start="2454" selection-end="2454" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="5820">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -76,8 +76,8 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/_js/app.js" />
-        <option value="$PROJECT_DIR$/modules/server.js" />
         <option value="$PROJECT_DIR$/_components/canvas-body/app.js" />
+        <option value="$PROJECT_DIR$/modules/server.js" />
       </list>
     </option>
   </component>
@@ -439,19 +439,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="13" selection-start="3523" selection-end="3523" vertical-scroll-proportion="0.0" vertical-offset="1414" max-vertical-offset="2880">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_components/canvas-body/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="58" selection-start="2454" selection-end="2454" vertical-scroll-proportion="0.8005618" vertical-offset="960" max-vertical-offset="5820">
+        <state line="102" column="58" selection-start="2454" selection-end="2454" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="5820">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="10" selection-start="858" selection-end="858" vertical-scroll-proportion="-1.0533708" vertical-offset="1200" max-vertical-offset="2865">
+          <folding />
         </state>
       </provider>
     </entry>
