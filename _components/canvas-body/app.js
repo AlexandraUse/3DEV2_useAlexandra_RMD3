@@ -4,6 +4,8 @@ var cnvs = null;
 var selfCanvas;
 var clickCount = 0;
 
+var mySocketId;
+
 var players = [];
 var arrPlayers = [];
 var bushes = [];
@@ -77,6 +79,9 @@ Polymer({
     ready: function(){
         cnvs = this.shadowRoot.querySelector('#cnvs');
         selfCanvas = this;
+    },
+    onSetPlayer: function(data){
+        mySocketId = data.id;
     },
     onPlayersReady: function(players){
         playerPosition = [];
