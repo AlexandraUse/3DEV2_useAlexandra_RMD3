@@ -5,7 +5,7 @@ var enemy_team_info = document.getElementsByTagName("enemy-team-info")[0];
 var time_remaining = document.getElementsByTagName("time-remaining")[0];
 var canvas_body = document.getElementsByTagName("canvas-body")[0];
 var collector_item = document.getElementsByTagName("collector-item")[0];
-
+var mySocketId = "";
 requirejs([
     '/socket.io/socket.io.js'
 ],function(io){
@@ -15,6 +15,7 @@ requirejs([
     var socket = this.socket;
     this.socket.on("new_player", (function(data){
         console.log("Connecting myself: ", data);
+        mySocketId = data.id;
         socket.emit("new player", data);
     }));
     this.socket.on("player_disconnected", (function(data){

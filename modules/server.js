@@ -64,7 +64,6 @@ module.exports = function(server){
         socket.emit("new_player", {id: client.socketId, team: client.team, player: client.player, x: client.xPos, y: client.yPos, kleur: client.kleurPlayer});
 
         socket.on('disconnect', function(data) {
-            console.log("Disconnect: ", data);
             console.log("Player disconnecting, removing player " + client.socketId);
 
             var removePlayer = playerById(client.socketId);
@@ -76,7 +75,7 @@ module.exports = function(server){
             existingPlayers.splice(idExists, 1);
             existingClients.splice(idExists, 1);
             remotePlayers.splice(remotePlayers.indexOf(removePlayer), 1);
-            console.log("Player removed, existing players: " + existingClients);
+            console.log("Player removed, existing players: ", existingClients);
 
             socket.leave(socket.room);
             socket.broadcast.emit("player_disconnected", client.socketId);
