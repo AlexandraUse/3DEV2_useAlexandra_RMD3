@@ -18,6 +18,8 @@ Polymer({
     player1: undefined,
     player2: undefined,
 
+    team1: undefined,
+    team2: undefined,
 
     player: undefined,
     playerColor: undefined,
@@ -42,5 +44,9 @@ Polymer({
         selfOwn.playerColor = client.kleurPlayer;
         selfOwn.xPos = client.xPos;
         selfOwn.yPos = client.yPos;
+    },
+    pointsSet: function(data){
+        selfOwn.team1 = data.team1;
+        selfEnemy.team2 = data.team2;
     }
 });

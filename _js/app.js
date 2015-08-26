@@ -33,6 +33,7 @@ requirejs([
     this.socket.on("bushes_set", canvas_body.onBushesSet.bind(this));
     this.socket.on("bushes_pos_set", canvas_body.onBushesPos.bind(this));
     this.socket.on("timer_set", time_remaining.timerSet.bind(this));
+    this.socket.on("points_set", own_team_info.pointsSet.bind(this));
 
     canvas_body.addEventListener("update_player", (function(e){
         socket.emit("update player", {id: e.currentTarget.socketId, prevX: e.currentTarget.xPos, prevY: e.currentTarget.yPos, newX: e.currentTarget.newX, newY: e.currentTarget.newY, player: e.currentTarget.player, team: e.currentTarget.team});

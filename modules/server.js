@@ -106,7 +106,6 @@ module.exports = function(server){
                 }
                 startX = positions[i][0];
                 startY = positions[i][1];
-                console.log("X: ", startX, "Y: ", startY);
                 localPlayer = new Player(startX, startY);
                 client.xPos = localPlayer.getX();
                 client.yPos = localPlayer.getY();
@@ -191,7 +190,15 @@ module.exports = function(server){
         socket.on("update points", function(data){
             console.log(data);
 
-            //io.sockets.emit("bushes_set", bush);
+            var pointsTeam1 = 0;
+            var pointsTeam2 = 0;
+            if(data == 1){
+                pointsTeam1 += 100;
+            }else if(data == 2){
+                pointsTeam2 += 100;
+            }
+
+            io.sockets.emit("points_set", {team1: pointsTeam1, team2: pointsTeam2});
         });
 	});
 };

@@ -17,7 +17,7 @@
     background-position: center top;
 }</style>
         <p class="info_team">Enemy's team</p>
-        <p class="info_score">Score <span>{{points}}</span> pts</p>
+        <p class="info_score">Score <span>{{team2}}</span> pts</p>
         <div class="info_players">
             <template if="{{characterImage}}">
                 <div class="info_player_1 circle3" style="background-image: url('../css/img/player{{characterImage[2]}}.png');"></div>
@@ -28,21 +28,14 @@
     </template>
     <script>/* jshint newcap: false */
 
-function startHandlerEnemy(data){
-    if(this.characterenemy != null){
-        console.log("Enemy team info: " + " Enemy character = " + this.characterenemy);
-    }
-}
-
-function enemyAddPointsHandler(point){
-}
-
 var selfEnemy;
 Polymer({
 
     points: 0,
     characterenemy: undefined,
     playerColor: undefined,
+    team1: undefined,
+    team2: undefined,
 
     ready: function(){
         selfEnemy = this;
@@ -50,9 +43,6 @@ Polymer({
     onPlayersReady: function(players){
         selfEnemy.playerColor = playersColor;
         selfEnemy.characterImage = characterImgs;
-    },
-    addPoints: function(point){
-        ownTeamAddPointsHandler.call(selfEnemy, point);
     }
 });</script>
 </polymer-element>

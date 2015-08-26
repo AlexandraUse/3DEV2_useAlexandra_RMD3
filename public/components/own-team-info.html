@@ -17,7 +17,7 @@
     background-position: center top;
 }</style>
         <p class="info_team">Your team</p>
-        <p class="info_score">Score <span>{{points}}</span> pts</p>
+        <p class="info_score">Score <span>{{team1}}</span> pts</p>
         <div class="info_players">
             <template if="{{characterImage}}">
                 <div class="info_player_1 circle1" style="background-image: url('../css/img/player{{characterImage[0]}}.png');"></div>
@@ -46,6 +46,8 @@ Polymer({
     player1: undefined,
     player2: undefined,
 
+    team1: undefined,
+    team2: undefined,
 
     player: undefined,
     playerColor: undefined,
@@ -70,6 +72,10 @@ Polymer({
         selfOwn.playerColor = client.kleurPlayer;
         selfOwn.xPos = client.xPos;
         selfOwn.yPos = client.yPos;
+    },
+    pointsSet: function(data){
+        selfOwn.team1 = data.team1;
+        selfEnemy.team2 = data.team2;
     }
 });</script>
 </polymer-element>
