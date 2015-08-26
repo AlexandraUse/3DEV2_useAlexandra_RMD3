@@ -10,6 +10,7 @@ var bushes = [];
 var characterImages = [];
 var bushImages = [];
 var bushesPosition =[];
+var playerOnCollision = false;
 
 var playerPosition = [];
 var flag = false;
@@ -21,7 +22,11 @@ var newDrawFunction;
 var createBushesFunction;
 
 function playerCollisionHandler(){
-    clickCount++;
+    playerOnCollision = false;
+
+    console.log("Collision");
+
+    /*clickCount++;
 
     if(clickCount >= 2){
         console.log("Too many clicks");
@@ -30,7 +35,7 @@ function playerCollisionHandler(){
         //clickCount = 0;
         console.log("Collision");
 
-    }
+    }*/
 }
 
 function getClickCoordinatesHandler(coordinates){
@@ -288,15 +293,18 @@ requirejs([
                 var playerPosNowX = players[player.player-1].xPos;
                 var playerPosNowY = players[player.player-1].yPos;
                 if(playerPosNowX == player.newX && playerPosNowY == player.newY){
-
                     for(var b in bushes){
                         if(bushes[b].xPos == playerPosNowX){
                             if(bushes[b].yPos == playerPosNowY){
                                 console.log("Player on a bush");
-                                playerCollisionHandler();
+                                playerOnCollision = true;
                             }
                         }
                     }
+                    if(playerOnCollision == true){
+                        playerCollisionHandler();
+                    }
+
                     return true;
                 }
                 return false;
