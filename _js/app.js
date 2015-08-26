@@ -45,7 +45,7 @@ requirejs([
 
     canvas_body.addEventListener("update_points", (function(e){
         console.log(e);
-        socket.emit('update points', e);
+        //socket.emit('update points', e);
     }).bind(this));
 
     time_remaining.addEventListener("set_timer", (function(e){
