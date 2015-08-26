@@ -85,13 +85,14 @@ module.exports = function(server){
             console.log("New player connected " + data.id );
             var newPlayer = new Player(data.x, data.y);
             newPlayer.id = data.id;
+            newPlayer.player = data.player;
 
             remotePlayers.push(newPlayer);
 
             var i, existingPlayer, startX = 0, startY = 0;
             for (i = 0; i < remotePlayers.length; i++) {
                 existingPlayer = remotePlayers[i].id;
-                client.player = i + 1;
+                client.player = remotePlayers[i].player;
                 client.kleurPlayer = characters[i];
 
                 if(client.player == 1 || client.player == 2){
