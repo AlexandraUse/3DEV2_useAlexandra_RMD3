@@ -1,11 +1,11 @@
 /* globals process:true */
-
-var port = process.env.PORT || 3000;
+//process.env.PORT ||
+var port =  3000;
 var env = process.env.NODE_ENV || "development";
 
 var express = require("express");
 var app = express();
-var server = require('http').Server(app); 
+var server = require('http').Server(app);
 
 //** CONFIG **//
 require("./config/middleware.js")(app, express);
