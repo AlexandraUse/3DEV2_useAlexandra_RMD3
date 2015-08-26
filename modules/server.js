@@ -105,7 +105,7 @@ module.exports = function(server){
                 client.xPos = localPlayer.getX();
                 client.yPos = localPlayer.getY();
 
-                //client.socketId = existingPlayer;
+                client.socketId = existingPlayer;
             }
 
             idExists = existsInArray(existingPlayer, existingPlayers);
