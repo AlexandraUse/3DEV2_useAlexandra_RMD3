@@ -32,6 +32,7 @@ function playerCollisionHandler(player){
     }else if(clickCount == 1){
         console.log("Collision with right bush");
         selfCanvas.fire("update_points", player);
+        selfCanvas.fire("bushes_get", bushImages);
     }
 }
 

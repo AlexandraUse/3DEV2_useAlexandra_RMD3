@@ -6,8 +6,8 @@ Polymer({
     points: 0,
     characterenemy: undefined,
     playerColor: undefined,
-    team1: undefined,
-    team2: undefined,
+    team1: 0,
+    team2: 0,
 
     ready: function(){
         selfEnemy = this;

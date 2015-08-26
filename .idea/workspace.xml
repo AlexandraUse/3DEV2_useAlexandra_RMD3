@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="004eb064-78f3-4890-8242-9215f14d7deb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/canvas-body/app.js" afterPath="$PROJECT_DIR$/_components/canvas-body/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/enemy-team-info/app.js" afterPath="$PROJECT_DIR$/_components/enemy-team-info/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/own-team-info/app.js" afterPath="$PROJECT_DIR$/_components/own-team-info/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_js/app.js" afterPath="$PROJECT_DIR$/_js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/enemy-team-info/enemy-team-info.html" afterPath="$PROJECT_DIR$/_components/enemy-team-info/enemy-team-info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/own-team-info/own-team-info.html" afterPath="$PROJECT_DIR$/_components/own-team-info/own-team-info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/server.js" afterPath="$PROJECT_DIR$/modules/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/components/canvas-body.html" afterPath="$PROJECT_DIR$/public/components/canvas-body.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/components/enemy-team-info.html" afterPath="$PROJECT_DIR$/public/components/enemy-team-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/components/own-team-info.html" afterPath="$PROJECT_DIR$/public/components/own-team-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="3DEV2_useAlexandra_RMD3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,19 +31,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="200" column="43" selection-start="7047" selection-end="7047" vertical-scroll-proportion="0.0" vertical-offset="2348" max-vertical-offset="3150">
+            <state line="200" column="43" selection-start="7047" selection-end="7047" vertical-scroll-proportion="0.8946629" vertical-offset="2363" max-vertical-offset="3150">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="68" selection-start="1776" selection-end="1776" vertical-scroll-proportion="0.71629214" vertical-offset="0" max-vertical-offset="885">
+            <state line="34" column="68" selection-start="1776" selection-end="1776" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="885">
               <folding />
             </state>
           </provider>
@@ -51,7 +52,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_components/canvas-body/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="49" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="5685">
+            <state line="8" column="17" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="5700">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -62,7 +63,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_components/own-team-info/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="37" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="855">
+            <state line="25" column="30" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="855">
               <folding />
             </state>
           </provider>
@@ -71,7 +72,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_components/enemy-team-info/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+            <state line="9" column="12" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -114,13 +115,13 @@
         <option value="$PROJECT_DIR$/_components/collector-item/collector-item.html" />
         <option value="$PROJECT_DIR$/_components/time-remaining/app.js" />
         <option value="$PROJECT_DIR$/_components/collector-item/app.js" />
-        <option value="$PROJECT_DIR$/_components/canvas-body/app.js" />
         <option value="$PROJECT_DIR$/modules/server.js" />
         <option value="$PROJECT_DIR$/_js/app.js" />
-        <option value="$PROJECT_DIR$/_components/own-team-info/app.js" />
         <option value="$PROJECT_DIR$/_components/enemy-team-info/enemy-team-info.html" />
         <option value="$PROJECT_DIR$/_components/own-team-info/own-team-info.html" />
         <option value="$PROJECT_DIR$/_components/enemy-team-info/app.js" />
+        <option value="$PROJECT_DIR$/_components/own-team-info/app.js" />
+        <option value="$PROJECT_DIR$/_components/canvas-body/app.js" />
       </list>
     </option>
   </component>
@@ -489,7 +490,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6706507" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.6706507" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.500664" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -570,22 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_components/canvas-body/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="49" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="5685">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="43" selection-start="7047" selection-end="7047" vertical-scroll-proportion="0.0" vertical-offset="2348" max-vertical-offset="3150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_components/time-remaining/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="25" selection-start="510" selection-end="510" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
@@ -598,13 +583,6 @@
     <entry file="file://$PROJECT_DIR$/_components/collector-item/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_components/own-team-info/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="37" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="855">
           <folding />
         </state>
       </provider>
@@ -625,16 +603,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_components/enemy-team-info/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+        <state line="9" column="12" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_components/own-team-info/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="30" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="68" selection-start="1776" selection-end="1776" vertical-scroll-proportion="0.71629214" vertical-offset="0" max-vertical-offset="885">
+        <state line="34" column="68" selection-start="1776" selection-end="1776" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_components/canvas-body/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="5700">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="200" column="43" selection-start="7047" selection-end="7047" vertical-scroll-proportion="0.8946629" vertical-offset="2363" max-vertical-offset="3150">
           <folding />
         </state>
       </provider>
