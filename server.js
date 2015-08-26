@@ -1,6 +1,6 @@
 /* globals process:true */
-//process.env.PORT ||
-var port =  3000;
+//
+var port =  process.env.PORT || 3000;
 var env = process.env.NODE_ENV || "development";
 
 var express = require("express");
