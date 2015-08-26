@@ -1,0 +1,58 @@
+@import 'base';
+
+html,
+body {
+  //background: url("img/bg_2.jpg") no-repeat center center fixed;
+  background-color: #f7edbf;
+  background-size: cover;
+}
+
+.container {
+
+}
+
+header {
+  font-size: 3em;
+}
+
+h1{
+  display: none;
+}
+
+.canvasbody{
+  width: 1000px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+
+.ownteaminfo{
+  display: inline-block;
+  float: left;
+}
+
+.enemyteaminfo{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.collector{
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+
+.timeremaining{
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  padding: 15px;
+}

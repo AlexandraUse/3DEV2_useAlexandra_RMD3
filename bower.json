@@ -1,0 +1,21 @@
+{
+  "name": "hideandseek",
+  "version": "0.0.1",
+  "authors": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2",
+    "peerjs": "~0.3.11",
+    "underscore": "~1.7.0",
+    "polymer": "~0.4.2",
+    "paper": "~0.9.23",
+    "requirejs": "~2.1.11"
+  }
+}

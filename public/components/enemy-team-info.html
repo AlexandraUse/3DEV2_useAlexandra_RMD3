@@ -1,0 +1,56 @@
+<link rel="import" href="../js/polymer/polymer.html"/>
+<polymer-element name="enemy-team-info">
+    <template>
+        <style>.info_players .info_player_1, .info_players .info_player_2{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.circle3,  .circle4{
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+    background-position: center top;
+}</style>
+        <p class="info_team">Enemy's team</p>
+        <p class="info_score">Score <span>{{points}}</span> pts</p>
+        <div class="info_players">
+            <div class="info_player_1 circle3" style="background-image: url('../css/img/player{{characterImage[2]}}.png');"></div>
+            <div class="info_player_lijntje"></div>
+            <div class="info_player_2 circle4" style="background-image: url('../css/img/player{{characterImage[3]}}.png');"></div>
+        </div>
+    </template>
+    <script>/* jshint newcap: false */
+
+function startHandlerEnemy(data){
+    if(this.characterenemy != null){
+        console.log("Enemy team info: " + " Enemy character = " + this.characterenemy);
+    }
+}
+
+function enemyAddPointsHandler(point){
+}
+
+var selfEnemy;
+Polymer({
+
+    points: 0,
+    characterenemy: undefined,
+    playerColor: undefined,
+
+    ready: function(){
+        selfEnemy = this;
+    },
+    onPlayersReady: function(players){
+        selfEnemy.playerColor = playersColor;
+        selfEnemy.characterImage = characterImgs;
+    },
+    addPoints: function(point){
+        ownTeamAddPointsHandler.call(selfEnemy, point);
+    }
+});</script>
+</polymer-element>

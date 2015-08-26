@@ -1,0 +1,73 @@
+<link rel="import" href="../js/polymer/polymer.html"/>
+<polymer-element name="own-team-info" attributes="peerapikey">
+    <template>
+        <style>.info_players .info_player_1, .info_players .info_player_2{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.circle1,  .circle2{
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    background-color: #ffffff;
+    background-position: center top;
+}</style>
+        <p class="info_team">Your team</p>
+        <p class="info_score">Score <span>{{points}}</span> pts</p>
+        <div class="info_players">
+            <div class="info_player_1 circle1" style="background-image: url('../css/img/player{{characterImage[0]}}.png');"></div>
+            <div class="info_player_lijntje"></div>
+            <div class="info_player_2 circle2" style="background-image: url('../css/img/player{{characterImage[1]}}.png');"></div>
+        </div>
+    </template>
+    <script>/* jshint newcap: false */
+
+var conn;
+var arrPlayers = [];
+var playersColor = [];
+var characterImgs = [];
+
+var selfOwn;
+Polymer({
+
+    points: 0,
+    socketId: undefined,
+    peer: undefined,
+    peerId: undefined,
+    characterown: undefined,
+    peerapikey: undefined,
+    stream: undefined,
+    player1: undefined,
+    player2: undefined,
+
+
+    player: undefined,
+    playerColor: undefined,
+    characterImage: undefined,
+    xPos: 0,
+    yPos: 0,
+
+    ready: function(){
+        selfOwn = this;
+    },
+    onPlayersReady: function(players){
+        for(var p in players){
+            playersColor.push(players[p].kleurPlayer);
+            characterImgs.push(players[p].player);
+        }
+        selfOwn.playerColor = playersColor;
+        selfOwn.characterImage = characterImgs;
+    },
+    onClient: function(client){
+        selfOwn.socketId = client.socketId;
+        selfOwn.player = client.player;
+        selfOwn.playerColor = client.kleurPlayer;
+        selfOwn.xPos = client.xPos;
+        selfOwn.yPos = client.yPos;
+    }
+});</script>
+</polymer-element>

@@ -1,0 +1,15 @@
+.imgCollector{
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.circleCollector{
+    width: 80px;
+    height: 80px;
+    padding-top: 8px;
+}

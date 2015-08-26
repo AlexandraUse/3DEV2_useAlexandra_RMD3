@@ -1,0 +1,42 @@
+<link rel="import" href="../js/polymer/polymer.html"/>
+<polymer-element name="collector-item" attributes="item">
+    <template>
+        <style>.imgCollector{
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.circleCollector{
+    width: 80px;
+    height: 80px;
+    padding-top: 8px;
+}</style>
+        <div class="imgCollector">
+            <img src="../css/img/{{bush}}" class="circleCollector" alt="collect-item" width="100" height="100" />
+        </div>
+    </template>
+    <script>/* jshint newcap: false */
+
+var bush;
+
+var selfCollector;
+Polymer({
+
+    bush: undefined,
+
+    ready: function(){
+        selfCollector = this;
+    },
+    onBushesSet: function(data){
+        console.log("Bush to collect: ", data);
+
+        bush = data;
+        selfCollector.bush = bush;
+    }
+});</script>
+</polymer-element>
