@@ -12,7 +12,7 @@ var bushes = [];
 var characterImages = [];
 var bushImages = [];
 var bushesPosition =[];
-var playerOnCollision = false;
+var playerBackCollision = false;
 
 var playerPosition = [];
 var flag = false;
@@ -24,13 +24,14 @@ var newDrawFunction;
 var createBushesFunction;
 
 function playerCollisionHandler(){
+    //playerBackCollision = false;
     clickCount++;
 
     if(clickCount == 2){
         clickCount = 0;
     }else if(clickCount == 1){
         console.log("Collision with right bush");
-
+        selfOwn.points = 100;
     }
     //selfCanvas.bush = bush;
 }
@@ -294,9 +295,6 @@ requirejs([
                     for(var b in bushes){
                         if(bushes[b].xPos == playerPosNowX){
                             if(bushes[b].yPos == playerPosNowY){
-                                console.log("Player on a bush");
-                                console.log(selfCanvas.randomBushes[b]);
-                                console.log(selfCanvas.bush);
                                 if(selfCanvas.randomBushes[b] == selfCanvas.bush){
                                     playerCollisionHandler();
                                 }
