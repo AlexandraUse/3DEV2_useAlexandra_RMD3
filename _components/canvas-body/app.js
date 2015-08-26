@@ -304,7 +304,6 @@ requirejs([
                     if(playerOnCollision == true){
                         playerCollisionHandler();
                     }
-
                     return true;
                 }
                 return false;
