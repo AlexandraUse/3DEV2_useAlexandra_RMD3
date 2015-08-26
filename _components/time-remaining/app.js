@@ -12,8 +12,8 @@ function getTimersHandler(time){
             console.log("Timer complete");
             return;
         }
-        selfTimer.fire("set_timer");
     }, 1000);
+    selfTimer.fire("set_timer");
     //return self.seconds;
 }
 
