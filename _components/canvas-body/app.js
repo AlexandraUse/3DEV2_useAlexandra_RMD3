@@ -27,6 +27,7 @@ function playerCollisionHandler(){
     playerOnCollision = false;
 
     console.log("Collision");
+
 }
 
 function getClickCoordinatesHandler(coordinates){
@@ -92,6 +93,8 @@ Polymer({
         newDrawFunction(player);
     },
     onBushesPos: function(data){
+        console.log(data.randomBushes);
+        
         selfCanvas.randomPos = data.randomPos[0];
         selfCanvas.randomBushes = data.randomBushes;
 
