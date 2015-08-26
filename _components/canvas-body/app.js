@@ -23,7 +23,7 @@ var enemyEnd = [];
 var newDrawFunction;
 var createBushesFunction;
 
-function playerCollisionHandler(){
+function playerCollisionHandler(player){
     //playerBackCollision = false;
     clickCount++;
 
@@ -31,9 +31,8 @@ function playerCollisionHandler(){
         clickCount = 0;
     }else if(clickCount == 1){
         console.log("Collision with right bush");
-        selfOwn.points = 100;
+        selfCanvas.fire("update_points", player);
     }
-    //selfCanvas.bush = bush;
 }
 
 function getClickCoordinatesHandler(coordinates){
@@ -296,7 +295,7 @@ requirejs([
                         if(bushes[b].xPos == playerPosNowX){
                             if(bushes[b].yPos == playerPosNowY){
                                 if(selfCanvas.randomBushes[b] == selfCanvas.bush){
-                                    playerCollisionHandler();
+                                    playerCollisionHandler(player);
                                 }
                             }
                         }

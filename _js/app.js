@@ -43,6 +43,10 @@ requirejs([
         socket.emit('bushes pos', e.detail.dictionary);
     }).bind(this));
 
+    canvas_body.addEventListener("update_points", (function(e){
+        socket.emit('update points', e.currentTarget);
+    }).bind(this));
+
     time_remaining.addEventListener("set_timer", (function(e){
         socket.emit('set timer', e.currentTarget.seconds);
     }).bind(this));

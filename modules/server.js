@@ -187,5 +187,11 @@ module.exports = function(server){
         socket.on("set timer", function(data){
             io.sockets.emit("timer_set", data);
         });
+
+        socket.on("update points", function(data){
+            console.log(data);
+
+            //io.sockets.emit("bushes_set", bush);
+        });
 	});
 };
