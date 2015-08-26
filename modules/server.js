@@ -125,7 +125,7 @@ module.exports = function(server){
             socket.emit("player_connected", client);
 
             if(existingPlayers.length == 4){
-                console.log("All players ready");
+                console.log("All players ready", existingClients);
 
                 io.sockets.emit("players_ready", existingClients);
             }
