@@ -91,7 +91,7 @@ Polymer({
     },
     onMovePlayer: function(player){
         console.log(player);
-        flag = true; 
+        flag = true;
         newDrawFunction(player);
     },
     onBushesPos: function(data){
@@ -231,6 +231,7 @@ requirejs([
             });
 
             function newDraw(player){
+                console.log('new draw player: ' , player);
                 if(player == "undefined"){
                     console.log("Player to move is undefined");
                 }else{
