@@ -5,6 +5,7 @@ var selfCanvas;
 var clickCount = 0;
 
 var mySocketId;
+var mySocketData;
 
 var players = [];
 var arrPlayers = [];

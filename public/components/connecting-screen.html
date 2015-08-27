@@ -7,6 +7,12 @@
     margin-top: 200px;
 }
 
+.connecting{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
 .intro{
     background-image: url("../css/img/intro_bg.png");
     background-repeat: no-repeat;
@@ -25,20 +31,30 @@
     margin-top: 20px;
 }</style>
         <div class="intro_content">
+            <div class="connecting">
+                <p>You are in the queue...</p>
+                <p>Players connected: {{player}}</p>
+            </div>
             <div class="intro"></div>
             <div class="start" on-click="{{clickStart}}"></div>
         </div>
     </template>
     <script>/* jshint newcap: false */
 
+var mySocketData;
 var selfConnecting;
 Polymer({
 
     bush: undefined,
     playersOnReady: false,
+    player: undefined,
 
     ready: function(){
         selfConnecting = this;
+    },
+    onSetPlayer: function(data){
+        mySocketData = data;
+        selfConnecting.player = data.player;
     },
     onPlayersReady: function(){
         selfConnecting.playersOnReady = true;

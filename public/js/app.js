@@ -18,6 +18,7 @@ requirejs([
         socket.emit("new player", data);
     }));
     this.socket.on("new_player", canvas_body.onSetPlayer.bind(this));
+    this.socket.on("new_player", connecting_screen.onSetPlayer.bind(this));
     this.socket.on("player_disconnected", (function(data){
         console.log("Disconnecting: ", data);
     }));
