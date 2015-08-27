@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="004eb064-78f3-4890-8242-9215f14d7deb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/connecting-screen/connecting-screen.html" afterPath="$PROJECT_DIR$/_components/connecting-screen/connecting-screen.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/components/connecting-screen.html" afterPath="$PROJECT_DIR$/public/components/connecting-screen.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/connecting-screen/screen.css" afterPath="$PROJECT_DIR$/_components/connecting-screen/screen.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/screen.css" afterPath="$PROJECT_DIR$/public/css/screen.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_scss/screen.scss" afterPath="$PROJECT_DIR$/_scss/screen.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="3DEV2_useAlexandra_RMD3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +57,7 @@
       <file leaf-file-name="screen.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_scss/screen.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="14" selection-start="882" selection-end="882" vertical-scroll-proportion="0.871612" vertical-offset="364" max-vertical-offset="1080">
+            <state line="61" column="12" selection-start="798" selection-end="798" vertical-scroll-proportion="0.78602" vertical-offset="364" max-vertical-offset="1065">
               <folding />
             </state>
           </provider>
@@ -78,7 +75,7 @@
       <file leaf-file-name="screen.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_components/connecting-screen/screen.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+            <state line="12" column="1" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -655,14 +652,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_components/connecting-screen/screen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+        <state line="12" column="1" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_scss/screen.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="14" selection-start="882" selection-end="882" vertical-scroll-proportion="0.871612" vertical-offset="364" max-vertical-offset="1080">
+        <state line="61" column="12" selection-start="798" selection-end="798" vertical-scroll-proportion="0.78602" vertical-offset="364" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>
