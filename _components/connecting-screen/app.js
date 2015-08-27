@@ -15,6 +15,9 @@ Polymer({
         mySocketData = data;
         selfConnecting.player = data.player;
     },
+    onDisconnectedClient: function(data){
+        selfConnecting.player = data.player;
+    },
     onPlayersReady: function(){
         selfConnecting.playersOnReady = true;
     },

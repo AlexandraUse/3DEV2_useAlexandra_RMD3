@@ -19,11 +19,12 @@ requirejs([
     }));
     this.socket.on("new_player", canvas_body.onSetPlayer.bind(this));
     this.socket.on("player_disconnected", (function(data){
-        console.log("Disconnecting: ", data);
+        console.log("Disconnecting: ", data.id);
     }));
     this.socket.on("player_connected", canvas_body.onClient.bind(this));
     this.socket.on("player_connected", own_team_info.onClient.bind(this));
     this.socket.on("player_connected", connecting_screen.onClient.bind(this));
+    this.socket.on("player_disconnected", connecting_screen.onDisconnectedClient.bind(this));
     this.socket.on("remove_player", (function(data){
         socket.emit("remove player", data);
     }));
