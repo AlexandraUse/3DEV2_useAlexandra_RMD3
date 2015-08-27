@@ -55,6 +55,9 @@ header {
 h1 {
   display: none; }
 
+.content {
+  display: none; }
+
 .canvasbody {
   width: 1000px;
   height: 600px;
