@@ -2,7 +2,7 @@
 <polymer-element name="connecting-screen">
     <template>
         <style>.intro_content{
-    position: absolute;
+    position: fixed;
     margin-left: auto;
     margin-right: auto;
     z-index: 10;
@@ -15,15 +15,11 @@
     height: 350px;
 }
 
-.intro{
+.start{
     background-image: url("../css/img/start_btn.png");
     background-repeat: no-repeat;
     width: 106px;
     height: 138px;
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 10;
 }</style>
     </template>
     <div class="intro_content">
@@ -39,6 +35,11 @@ Polymer({
 
     ready: function(){
         selfConnecting = this;
+    },
+    onPlayersReady: function(){
+        document.querySelector('.start').addEventListener('click', function(e) {
+            console.log('Start button');
+        });
     }
 });</script>
 </polymer-element>
