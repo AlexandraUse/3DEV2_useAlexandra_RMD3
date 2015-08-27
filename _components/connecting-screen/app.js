@@ -12,16 +12,13 @@ Polymer({
         selfConnecting = this;
     },
     onBroadcastClient: function(data){
-        console.log("Players connected: ", data);
         for(var p in data){
-            console.log(p);
-            selfConnecting.player = p;
+            selfConnecting.player = p + 1;
         }
     },
     onDisconnectedClient: function(data){
-        console.log(data);
         for(var p in data[0]){
-            selfConnecting.player = p;
+            selfConnecting.player = p + 1;
         }
     },
     onPlayersReady: function(){
