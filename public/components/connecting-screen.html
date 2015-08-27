@@ -26,7 +26,7 @@
 }</style>
         <div class="intro_content">
             <div class="intro"></div>
-            <div class="start"></div>
+            <div class="start" on-click="{{clickStart}}"></div>
         </div>
     </template>
     <script>/* jshint newcap: false */
@@ -40,18 +40,9 @@ Polymer({
         selfConnecting = this;
     },
     onPlayersReady: function(){
-        console.log(selfConnecting.$.start);
-        console.log(selfConnecting.shadowRoot.querySelector('start'));
-        console.log(document.querySelector('start'));
-        console.log($('.start'));
-        $('.start').addEventListener('click', function(e) {
-            console.log('Start button');
-           
-        });
-
-        /*selfConnecting.$.start.addEventListener('click', function(e) {
-            console.log('Start button');
-        });*/
+    },
+    clickStart: function(e){
+        console.log('Start button');
     }
 });</script>
 </polymer-element>
