@@ -1,0 +1,24 @@
+.intro_content{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+}
+
+.intro{
+    background-image: url("img/intro.png");
+    background-repeat: no-repeat;
+    width: 379px;
+    height: 350px;
+}
+
+.intro{
+    background-image: url("img/start_btn.png");
+    background-repeat: no-repeat;
+    width: 106px;
+    height: 138px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+}

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="004eb064-78f3-4890-8242-9215f14d7deb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.hbs" afterPath="$PROJECT_DIR$/views/index.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/connecting-screen/connecting-screen.html" afterPath="$PROJECT_DIR$/_components/connecting-screen/connecting-screen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/components/connecting-screen.html" afterPath="$PROJECT_DIR$/public/components/connecting-screen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/connecting-screen/screen.css" afterPath="$PROJECT_DIR$/_components/connecting-screen/screen.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/screen.css" afterPath="$PROJECT_DIR$/public/css/screen.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_scss/screen.scss" afterPath="$PROJECT_DIR$/_scss/screen.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -58,7 +60,7 @@
       <file leaf-file-name="screen.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_scss/screen.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="16" selection-start="802" selection-end="802" vertical-scroll-proportion="0.59343797" vertical-offset="499" max-vertical-offset="1230">
+            <state line="65" column="14" selection-start="882" selection-end="882" vertical-scroll-proportion="0.871612" vertical-offset="364" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
@@ -67,7 +69,7 @@
       <file leaf-file-name="connecting-screen.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_components/connecting-screen/connecting-screen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="23" selection-start="136" selection-end="136" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="315">
+            <state line="9" column="33" selection-start="314" selection-end="314" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
@@ -76,7 +78,7 @@
       <file leaf-file-name="screen.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_components/connecting-screen/screen.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+            <state line="6" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -112,10 +114,10 @@
         <option value="$PROJECT_DIR$/_components/time-remaining/time-remaining.html" />
         <option value="$PROJECT_DIR$/_components/time-remaining/app.js" />
         <option value="$PROJECT_DIR$/_components/connecting-screen/app.js" />
-        <option value="$PROJECT_DIR$/_components/connecting-screen/screen.css" />
-        <option value="$PROJECT_DIR$/_components/connecting-screen/connecting-screen.html" />
-        <option value="$PROJECT_DIR$/_scss/screen.scss" />
         <option value="$PROJECT_DIR$/views/index.hbs" />
+        <option value="$PROJECT_DIR$/_components/connecting-screen/connecting-screen.html" />
+        <option value="$PROJECT_DIR$/_components/connecting-screen/screen.css" />
+        <option value="$PROJECT_DIR$/_scss/screen.scss" />
       </list>
     </option>
   </component>
@@ -572,7 +574,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="12" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -588,15 +590,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="49" selection-start="572" selection-end="572" vertical-scroll-proportion="-16.153847" vertical-offset="0" max-vertical-offset="5610">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="0" selection-start="6840" selection-end="6840" vertical-scroll-proportion="0.0" vertical-offset="2438" max-vertical-offset="3150">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -621,18 +616,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_components/connecting-screen/screen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="702">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_components/connecting-screen/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="3" selection-start="144" selection-end="144" vertical-scroll-proportion="0.21367522" vertical-offset="0" max-vertical-offset="702">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -644,13 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_components/connecting-screen/connecting-screen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="23" selection-start="136" selection-end="136" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/index.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="43" selection-start="498" selection-end="498" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="675">
@@ -658,9 +639,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="193" column="0" selection-start="6840" selection-end="6840" vertical-scroll-proportion="0.0" vertical-offset="2438" max-vertical-offset="3150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_components/connecting-screen/connecting-screen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="33" selection-start="314" selection-end="314" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_components/connecting-screen/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_scss/screen.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="16" selection-start="802" selection-end="802" vertical-scroll-proportion="0.59343797" vertical-offset="499" max-vertical-offset="1230">
+        <state line="65" column="14" selection-start="882" selection-end="882" vertical-scroll-proportion="0.871612" vertical-offset="364" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>
