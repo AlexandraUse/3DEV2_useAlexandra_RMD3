@@ -8,13 +8,14 @@
 .intro{
     background-image: url("../css/img/intro_bg.png");
     background-repeat: no-repeat;
-    width: 379px;
-    height: 350px;
+    width: 280px;
+    height: 259px;
 }
 
 .start{
     background-image: url("../css/img/start_btn.png");
     background-repeat: no-repeat;
-    width: 106px;
-    height: 138px;
+    width: 80px;
+    height: 104px;
+    cursor: pointer;
 }

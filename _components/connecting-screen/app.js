@@ -9,7 +9,7 @@ Polymer({
         selfConnecting = this;
     },
     onPlayersReady: function(){
-        document.querySelector('.start').addEventListener('click', function(e) {
+        this.shadowRoot.querySelector('start').addEventListener('click', function(e) {
             console.log('Start button');
         });
     }
