@@ -4,7 +4,7 @@
         <style>.intro_content{
     display: inline-block;
     text-align: left;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .intro{
@@ -40,7 +40,7 @@ Polymer({
         selfConnecting = this;
     },
     onPlayersReady: function(){
-        selfConnecting.shadowRoot.querySelector('start').addEventListener('click', function(e) {
+        selfConnecting.$.start.addEventListener('click', function(e) {
             console.log('Start button');
         });
     }
