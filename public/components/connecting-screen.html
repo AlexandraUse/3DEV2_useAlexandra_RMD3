@@ -4,6 +4,7 @@
         <style>.intro_content{
     display: inline-block;
     text-align: left;
+    margin-top: 100px;
 }
 
 .intro{
@@ -19,9 +20,12 @@
     width: 80px;
     height: 104px;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }</style>
         <div class="intro_content">
-            <div class="intro"><p>Hello</p></div>
+            <div class="intro"></div>
             <div class="start"></div>
         </div>
     </template>
@@ -36,7 +40,7 @@ Polymer({
         selfConnecting = this;
     },
     onPlayersReady: function(){
-        this.shadowRoot.querySelector('start').addEventListener('click', function(e) {
+        selfConnecting.shadowRoot.querySelector('start').addEventListener('click', function(e) {
             console.log('Start button');
         });
     }
