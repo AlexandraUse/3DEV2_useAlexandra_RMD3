@@ -1,8 +1,5 @@
 /* jshint newcap: false */
 
-function hideIntro(){
-}
-
 var selfConnecting;
 Polymer({
 
@@ -15,8 +12,7 @@ Polymer({
     },
     clickStart: function(e){
         console.log('Start button');
-        document.querySelector('.connectingscreen').hide();
-        document.querySelector('.content').show();
-        hideIntro();
+        document.querySelector('.connectingscreen').style.display = 'none';
+        document.querySelector('.content').style.display = 'inline';
     }
 });
