@@ -129,7 +129,7 @@ module.exports = function(server){
             socket.room = 'room1';
             socket.join('room1');
             socket.emit("player_connected", client);
-            socket.broadcast.emit("player_broadcast_connected", client);
+            io.sockets.emit("player_broadcast_connected", client);
 
             if(existingPlayers.length == 4){
                 console.log("All players ready", existingClients);
