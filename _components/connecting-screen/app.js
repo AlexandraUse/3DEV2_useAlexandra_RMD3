@@ -11,7 +11,7 @@ Polymer({
     ready: function(){
         selfConnecting = this;
     },
-    onClient: function(data){
+    onBroadcastClient: function(data){
         mySocketData = data;
         selfConnecting.player = data.player;
     },

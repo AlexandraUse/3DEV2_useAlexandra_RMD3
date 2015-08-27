@@ -85,7 +85,7 @@ module.exports = function(server){
             console.log("Player removed, remote players: ", remotePlayers);
 
             socket.leave(socket.room);
-            socket.broadcast.emit("player_disconnected", client);
+            socket.broadcast.emit("player_disconnected", client.socketId);
         });
 
         socket.on('new player', function(data) {
