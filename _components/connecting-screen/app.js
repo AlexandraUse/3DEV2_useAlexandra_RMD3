@@ -16,7 +16,7 @@ Polymer({
     },
     clickStart: function(e){
         console.log('Start button');
-        selfConnecting.$.connecting-screen.hide();
+        selfConnecting.$.connectingscreen.hide();
         console.log(document.querySelector('content'));
         hideIntro();
     }
