@@ -15,8 +15,8 @@ Polymer({
     },
     clickStart: function(e){
         console.log('Start button');
-        console.log(document.querySelector('content'));
-        console.log(document.querySelector('connectingscreen'));
+        console.log(document.querySelector('.content'));
+        console.log(document.querySelector('.connectingscreen'));
         hideIntro();
     }
 });
