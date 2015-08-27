@@ -14,10 +14,12 @@ Polymer({
     onBroadcastClient: function(data){
         console.log("Players connected: ", data);
         for(var p in data){
+            console.log(p);
             selfConnecting.player = p;
         }
     },
     onDisconnectedClient: function(data){
+        console.log(data);
         for(var p in data[0]){
             selfConnecting.player = p;
         }
