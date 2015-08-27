@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="004eb064-78f3-4890-8242-9215f14d7deb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/connecting-screen/app.js" afterPath="$PROJECT_DIR$/_components/connecting-screen/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/components/connecting-screen.html" afterPath="$PROJECT_DIR$/public/components/connecting-screen.html" />
     </list>
     <ignored path="3DEV2_useAlexandra_RMD3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,7 +55,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_components/connecting-screen/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="20" selection-start="417" selection-end="417" vertical-scroll-proportion="0.42735043" vertical-offset="0" max-vertical-offset="702">
+            <state line="2" column="21" selection-start="49" selection-end="49" vertical-scroll-proportion="0.042735044" vertical-offset="0" max-vertical-offset="702">
               <folding />
             </state>
           </provider>
@@ -619,7 +618,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_components/connecting-screen/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="417" selection-end="417" vertical-scroll-proportion="0.42735043" vertical-offset="0" max-vertical-offset="702">
+        <state line="2" column="21" selection-start="49" selection-end="49" vertical-scroll-proportion="0.042735044" vertical-offset="0" max-vertical-offset="702">
           <folding />
         </state>
       </provider>
