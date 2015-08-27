@@ -12,6 +12,7 @@ Polymer({
         selfConnecting = this;
     },
     onBroadcastClient: function(data){
+        console.log("Players connected: ", data.player);
         mySocketData = data;
         selfConnecting.player = data.player;
     },

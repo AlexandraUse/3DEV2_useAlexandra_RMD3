@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="004eb064-78f3-4890-8242-9215f14d7deb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/connecting-screen/app.js" afterPath="$PROJECT_DIR$/_components/connecting-screen/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_js/app.js" afterPath="$PROJECT_DIR$/_js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/server.js" afterPath="$PROJECT_DIR$/modules/server.js" />
     </list>
     <ignored path="3DEV2_useAlexandra_RMD3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,7 +68,7 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_components/connecting-screen/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="28" selection-start="269" selection-end="269" vertical-scroll-proportion="0.2991453" vertical-offset="0" max-vertical-offset="702">
+            <state line="17" column="6" selection-start="378" selection-end="378" vertical-scroll-proportion="0.36324787" vertical-offset="0" max-vertical-offset="702">
               <folding />
             </state>
           </provider>
@@ -126,8 +124,8 @@
         <option value="$PROJECT_DIR$/_scss/screen.scss" />
         <option value="$PROJECT_DIR$/_components/connecting-screen/screen.css" />
         <option value="$PROJECT_DIR$/_js/app.js" />
-        <option value="$PROJECT_DIR$/_components/connecting-screen/app.js" />
         <option value="$PROJECT_DIR$/modules/server.js" />
+        <option value="$PROJECT_DIR$/_components/connecting-screen/app.js" />
       </list>
     </option>
   </component>
@@ -632,7 +630,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_components/connecting-screen/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="269" selection-end="269" vertical-scroll-proportion="0.2991453" vertical-offset="0" max-vertical-offset="702">
+        <state line="17" column="6" selection-start="378" selection-end="378" vertical-scroll-proportion="0.36324787" vertical-offset="0" max-vertical-offset="702">
           <folding />
         </state>
       </provider>
