@@ -2,156 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="004eb064-78f3-4890-8242-9215f14d7deb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/game/ground/0-grass.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/game/ground/blank-block.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/game/ground/trees.psd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/game/objects/wall.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/1-grass-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/1-grass-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/1-grass-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/1-grass-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/1-grass-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/1-grass-6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/1-grass-7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/1-grass-8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/2-blue-tiles.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/blank-block.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/hole.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/land.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/marsh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/path-outdoor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/rock-ground.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/sand.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/swamp.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/water-purple.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/ground/water.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/gui/bottom-bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/gui/popup-box.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/gui/top-bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/$1-wall-0001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/$1-wall-0010.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/$1-wall-0011.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/$1-wall-0110.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/$1-wall-1001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/$1-wall-1100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/$1-wall-1111.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/1-barrel1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/1-barrel2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/10-chair2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/11-tree.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/2-chair1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/7-normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/8-garden.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/9-museum.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/arch-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/arch-p1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/archP1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/book-case.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/bookcase.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/bookcase2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/bookcase3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/bookcase4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/bookcase5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/candle1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/chair2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/chair3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/coalFire.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/door.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/emptyFire.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/floor1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/magic-stone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/normal-table.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/prison1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/prisondoor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/short-wall1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/sign.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/table.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/table2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/table3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/towel1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/tree2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/treestump.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/wall2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/wall4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/wallC1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/well1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/objects/window1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 1 NE.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 1 NW.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 1 SE.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 1 SW.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 2 NE.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 2 NW.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 2 SE.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 2 SW.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 3 NE.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 3 NW.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 3 SE.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 3 SW.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 4 NE.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 4 NW.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 4 SE.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 4 SW.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 5 NE.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 5 NW.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 5 SE.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/Wall 5 SW.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/char.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/platform/diamond.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/basic1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/bridge_ew.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/bridge_ns.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/ground.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/highlighted.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/house1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/house2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/house3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/house4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/path_ew.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/path_ne.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/path_ns.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/path_nse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/path_nw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/path_sew.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/path_sw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/road_nsew.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/road_se.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/trees1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/trees10.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/trees11.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/trees12.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/trees13.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/trees14.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/trees15.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/trees16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/trees17.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/trees18.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/trees2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/trees3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/trees4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/trees5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/trees6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/trees7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/trees8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/sample1Img/trees9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/snake/0-screen.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/snake/1-blank.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/snake/2-point.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/snake/4-screen-cover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/snakeiso/0-screen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/snakeiso/1-blank.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/snakeiso/2-point.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/snakeiso/4-screen-cover.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/space/1-space-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/space/1-space-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/space/1-space-3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/space/1-space-4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/space/1-space-5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/td/outside.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/td/rabbit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/js/jsiso/img/td/tower.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_components/connecting-screen/connecting-screen.html" afterPath="$PROJECT_DIR$/_components/connecting-screen/connecting-screen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/components/connecting-screen.html" afterPath="$PROJECT_DIR$/public/components/connecting-screen.html" />
     </list>
     <ignored path="3DEV2_useAlexandra_RMD3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -201,11 +52,40 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="canvas-body.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/components/canvas-body.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="37290">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="collector-item.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/components/collector-item.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="750">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="connecting-screen.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/components/connecting-screen.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="17" selection-start="482" selection-end="482" vertical-scroll-proportion="0.45801526" vertical-offset="0" max-vertical-offset="765">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_components/connecting-screen/app.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="15" column="3" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-              <folding />
+              <folding>
+                <marker date="1440641231000" expanded="true" signature="172:313" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -228,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connecting-screen.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="connecting-screen.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_components/connecting-screen/connecting-screen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="33" selection-start="326" selection-end="326" vertical-scroll-proportion="0.19911504" vertical-offset="0" max-vertical-offset="678">
+            <state line="9" column="33" selection-start="326" selection-end="326" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
@@ -255,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/_components/collector-item/collector-item.html" />
         <option value="$PROJECT_DIR$/_components/collector-item/app.js" />
         <option value="$PROJECT_DIR$/_components/enemy-team-info/enemy-team-info.html" />
         <option value="$PROJECT_DIR$/_components/own-team-info/own-team-info.html" />
@@ -271,6 +150,7 @@
         <option value="$PROJECT_DIR$/_components/connecting-screen/app.js" />
         <option value="$PROJECT_DIR$/_components/connecting-screen/screen.css" />
         <option value="$PROJECT_DIR$/_components/connecting-screen/connecting-screen.html" />
+        <option value="$PROJECT_DIR$/public/components/connecting-screen.html" />
       </list>
     </option>
   </component>
@@ -664,22 +544,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_components/enemy-team-info/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="12" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_components/own-team-info/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="90" selection-start="1186" selection-end="1186" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_components/canvas-body/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="49" selection-start="572" selection-end="572" vertical-scroll-proportion="-16.153847" vertical-offset="0" max-vertical-offset="5610">
@@ -734,27 +598,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/components/connecting-screen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="38" selection-start="677" selection-end="677" vertical-scroll-proportion="0.61946905" vertical-offset="0" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.hbs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="63" selection-start="338" selection-end="338" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_components/connecting-screen/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="3" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_scss/screen.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="21" selection-start="518" selection-end="518" vertical-scroll-proportion="-12.333333" vertical-offset="334" max-vertical-offset="1035">
@@ -771,7 +614,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_components/connecting-screen/connecting-screen.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="33" selection-start="326" selection-end="326" vertical-scroll-proportion="0.19911504" vertical-offset="0" max-vertical-offset="678">
+        <state line="9" column="33" selection-start="326" selection-end="326" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="315">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_components/connecting-screen/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="3" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <folding>
+            <marker date="1440641231000" expanded="true" signature="172:313" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.hbs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="63" selection-start="338" selection-end="338" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/components/canvas-body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="37290">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/components/collector-item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/components/connecting-screen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="17" selection-start="482" selection-end="482" vertical-scroll-proportion="0.45801526" vertical-offset="0" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
