@@ -52,12 +52,15 @@ Polymer({
         selfConnecting = this;
     },
     onBroadcastClient: function(data){
-        console.log("Players connected: ", data.player);
-        mySocketData = data;
-        selfConnecting.player = data.player;
+        console.log("Players connected: ", data);
+        for(var p in data.length){
+            selfConnecting.player = p;
+        }
     },
     onDisconnectedClient: function(data){
-        selfConnecting.player = data.player;
+        for(var p in data.length){
+            selfConnecting.player = p;
+        }
     },
     onPlayersReady: function(){
         selfConnecting.playersOnReady = true;

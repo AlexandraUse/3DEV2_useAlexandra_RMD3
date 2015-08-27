@@ -74,7 +74,6 @@ module.exports = function(server){
                 return;
             }
 
-
             idExists = existsInArray(removePlayer.id, existingPlayers);
             if (idExists >= 0) {
                 existingPlayers.splice(idExists, 1);
@@ -82,10 +81,9 @@ module.exports = function(server){
                 remotePlayers.splice(idExists, 1);
             }
             console.log("Player removed, existing players: ", existingClients);
-            console.log("Player removed, remote players: ", remotePlayers);
 
             socket.leave(socket.room);
-            socket.broadcast.emit("player_disconnected", client.socketId);
+            io.sockets.emit("player_disconnected", existingClients);
         });
 
         socket.on('new player', function(data) {
@@ -129,7 +127,7 @@ module.exports = function(server){
             socket.room = 'room1';
             socket.join('room1');
             socket.emit("player_connected", client);
-            io.sockets.emit("player_broadcast_connected", client);
+            io.sockets.emit("player_broadcast_connected", existingPlayers);
 
             if(existingPlayers.length == 4){
                 console.log("All players ready", existingClients);
