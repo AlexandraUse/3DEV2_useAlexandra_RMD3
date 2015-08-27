@@ -6,12 +6,12 @@ Polymer({
 
     bush: undefined,
     playersOnReady: false,
-    player: undefined,
+    player: 0,
 
     ready: function(){
         selfConnecting = this;
     },
-    onSetPlayer: function(data){
+    onClient: function(data){
         mySocketData = data;
         selfConnecting.player = data.player;
     },

@@ -18,12 +18,12 @@ requirejs([
         socket.emit("new player", data);
     }));
     this.socket.on("new_player", canvas_body.onSetPlayer.bind(this));
-    this.socket.on("new_player", connecting_screen.onSetPlayer.bind(this));
     this.socket.on("player_disconnected", (function(data){
         console.log("Disconnecting: ", data);
     }));
     this.socket.on("player_connected", canvas_body.onClient.bind(this));
     this.socket.on("player_connected", own_team_info.onClient.bind(this));
+    this.socket.on("player_connected", connecting_screen.onClient.bind(this));
     this.socket.on("remove_player", (function(data){
         socket.emit("remove player", data);
     }));
